@@ -1,5 +1,9 @@
 
 [
+  {
+  "keys": ["ctrl+alt+t"],
+  "command": "open_terminal_project_folder"
+},
 { "keys": ["ctrl+s"], "context": [{"key": "setting.actual_mode", "operand": true}], "command": "actual_disable"},
 { "keys": ["ctrl+s"], "context": [{"key": "setting.actual_mode", "operand": false}], "command": "actual_enable"},
  { "keys": ["ctrl+n"], "command": "relative_line_numbers" },
