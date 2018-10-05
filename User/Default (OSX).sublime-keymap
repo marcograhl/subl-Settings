@@ -1,0 +1,71 @@
+
+[
+{ "keys": ["ctrl+s"], "context": [{"key": "setting.actual_mode", "operand": true}], "command": "actual_disable"},
+{ "keys": ["ctrl+s"], "context": [{"key": "setting.actual_mode", "operand": false}], "command": "actual_enable"},
+ { "keys": ["ctrl+n"], "command": "relative_line_numbers" },
+ { "keys": ["ctrl+a"], "command": "power_cursor_activate"},
+ { "keys": ["ctrl+`"], "command": "terminal_view_open" },
+ { "keys": ["ctrl+shift+s"], "command": "auto_save" },
+{ "keys": ["ctrl+-"], "command": "toggle_side_bar" },
+{ "keys": ["ctrl+shift+o"], "command": "insert_snippet", "args": { "contents": "$0\n" } },
+{ "keys": ["ctrl+h"], "command": "focus_neighboring_group", "args": {"forward": false} },
+{ "keys": ["ctrl+l"], "command": "focus_neighboring_group" },
+{ "keys": ["alt+up"], "command": "run_macro_file", "args": {"file": "Packages/User/move_3_lines_up.sublime-macro"} },
+{ "keys": ["alt+down"], "command": "run_macro_file", "args": {"file": "Packages/User/move_3_lines_down.sublime-macro"} },
+{ "keys": ["alt+shift+up"], "command": "run_macro_file", "args": {"file": "Packages/User/extend_3_lines_up.sublime-macro"} },
+{ "keys": ["alt+shift+down"], "command": "run_macro_file", "args": {"file": "Packages/User/extend_3_lines_down.sublime-macro"} },
+     {
+        "keys": [
+            "%"
+        ], 
+        "args": {
+            "action": "matching_pair"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.matching_pair"
+            }
+        ]
+    }, 
+       {
+
+     "keys": [
+
+       "ctrl+c"
+
+     ],
+
+     "command": "run_multiple_commands",
+
+     "args": {
+
+       "commands": [
+
+         {
+
+           "command": "save",
+
+         },
+
+         {
+
+           "command": "exit_insert_mode",
+
+           "context": [
+        { "key": "setting.command_mode", "operand": false },
+        { "key": "setting.is_widget", "operand": false }
+
+             
+
+           ]
+
+         }
+
+       ]
+
+    }
+
+   }
+
+]

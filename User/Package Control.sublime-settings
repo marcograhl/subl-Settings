@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AceJump",
+		"BracketHighlighter",
+		"CSS Extended Completions",
+		"Emmet",
+		"Facebook Material Theme",
+		"Package Control",
+		"PackageResourceViewer",
+		"PowerCursors",
+		"Theme - Cobalt2"
+	]
+}

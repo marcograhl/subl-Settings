@@ -1,0 +1,70 @@
+{
+	"auto_complete": true,
+	"auto_indent": true,
+	"binary_file_patterns":
+	[
+		".DS_Store",
+		"node_modules/",
+		"tmp/",
+		"*.png",
+		"*.psd",
+		"*.ai",
+		"*.min.js",
+		"tmp/",
+		"_tmp/"
+	],
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 3,
+	"caret_style": "phase",
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/nord-sublime-text/Nord.tmTheme",
+	"detect_indentation": false,
+	"draw_centered": false,
+	"enable_tab_scrolling": false,
+	"folder_exclude_patterns":
+	[
+		".git",
+		".awestruct",
+		".sass-cache",
+		"_developer-materials",
+		"_downloads",
+		"_tmp",
+		"_specs",
+		"_site",
+		"_products",
+		"_projects"
+	],
+	"font_face": "Operator Mono",
+	"font_options":
+	[
+		"subpixel_antialias",
+		"no_round",
+		"directwrite"
+	],
+	"font_size": 14.25,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"line_numbers": true,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"margin": 4,
+	"match_tags": false,
+	"origami_auto_zoom_on_focus": false,
+	"rulers":
+	[
+		80
+	],
+	"show_full_path": true,
+	"tab_size": 2,
+	"theme": "Cobalt2.sublime-theme",
+	"translate_tabs_to_spaces": true
+}
