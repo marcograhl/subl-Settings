@@ -43,7 +43,7 @@
 		"no_round",
 		"directwrite"
 	],
-	"font_size": 14.25,
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
